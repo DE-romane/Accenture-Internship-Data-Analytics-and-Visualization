@@ -1,73 +1,59 @@
-# Accenture-Data-Analytics-and-Visualization-Virtual-Internship
+# Accenture Data Analytics and Visualization Virtual Internship
 ## Certificate:
-[Certificate](https://github.com/Sinhaaz/Accenture-Data-Analytics-and-Visualization-Virtual-Internship/blob/main/Accenture%20North%20America_Data%20Analytics_completion_certificate.pdf)
+<img src = "certificate.jpg">
 
-## Task - 1
-### Project Understanding:
-**A data analyst sits between the business and the data.**
+During my virtual internship with Accenture, I had the opportunity to work on a data analytics and visualization project. Here’s a summary of the tasks and insights gained throughout the internship:
 
- - One of Accenture’s Managing Directors, Mae Mulligan, is the client lead for Social Buzz.
- - She has reviewed the brief provided by Social Buzz and has assembled a diverse team of Accenture experts to deliver the project.
- - Mae has scheduled a project kick off call with the internal Accenture project team for tomorrow morning.
- - About Client : [Social Buzz](https://github.com/Sinhaaz/Accenture-Data-Analytics-and-Visualization-Virtual-Internship/blob/main/Data_Analytics%20Client%20Brief.pdf)
+### Task 1: Project Understanding
+As a data analyst, I acted as a bridge between the business and the data. The client, Social Buzz, tasked Accenture with addressing several challenges as the company scaled rapidly. The project was led by Mae Mulligan, Managing Director at Accenture.
 
-#### Task for Accenture : 
+Client Problem:
+Social Buzz required assistance in three key areas:
 
- >- Client's Problem that Accenture is tasked to address : The client has reached a massive scale within recent years and does not have the resources internally to handle it.
- >- Three requirements that Accenture is tasked to fulfill : Audit of big data practice, recommendations for IPO, analysis of popular content
- 
+- Audit of their big data practices
+- Recommendations for an IPO
+- Analysis of popular content
+
+My role as a Data Analyst: I was responsible for analyzing sample data to provide insights into the top five content categories with the highest popularity.
+About Client : [Social Buzz](https://github.com/DE-romane/Accenture-Internship-Data-Analytics-and-Visualization/blob/main/Data_Analytics%20Client%20Brief.pdf)
+
+
  #### Accenture Project Team :
  <img src = "Project Team.png">
- 
- #### Task for Data Analyst :
-Analysis of sample data sets with visualizations to understand the popularity of different content categories.
 
-In short, the client wanted to see **“An analysis of their content categories showing the top 5 categories with the largest popularity”.** 
 
-## Task - 2
- - Often you won’t need all these datasets to find what you’re looking for.
- - So, the first step is to use this [data model](https://github.com/Sinhaaz/Accenture-Data-Analytics-and-Visualization-Virtual-Internship/blob/main/Data%20model.pdf) to identify which datasets will be required to answer your business question - which is to to figure out the top 5 categories with the largest popularity.
- - After Analysis we got data sets needed to complete analysis:
- >- Reaction Score(score is used to quantified the popularity)
- >- Content ID
- >- Reaction Types
- >- Content type
- >- Category
- 
+## Task 2: Data Preparation and Cleaning
+The first step was identifying which datasets would be necessary for the analysis. Using the provided [data model](https://github.com/DE-romane/Accenture-Internship-Data-Analytics-and-Visualization/blob/main/Data%20model.pdf), I focused on the following key data points:
+- Reaction Score (used to quantify content popularity)
+- Content ID
+- Reaction Types
+- Content Type
+- Category
+
 ### Data Cleaning:
-#### Clean the data by:
- - removing rows that have values which are missing,
- - changing the data type of some values within a column, and
- - removing columns which are not relevant to this task.
- - - Think about how each column might be relevant to the business question you’re investigating. If you can’t think of why a column may be useful, it may not be worth including it.
+I performed data cleaning by:
+- Removing rows with missing values
+- Converting data types where needed
+- Removing irrelevant columns
 
-**End result will be three cleaned data set :**
- - [Reaction Types](https://github.com/Sinhaaz/Accenture-Data-Analytics-and-Visualization-Virtual-Internship/blob/main/ReactionTypes.csv)
- - [Reactions](https://github.com/Sinhaaz/Accenture-Data-Analytics-and-Visualization-Virtual-Internship/blob/main/Reactions.csv)
- - [Content](https://github.com/Sinhaaz/Accenture-Data-Analytics-and-Visualization-Virtual-Internship/blob/main/Content.csv)
+As a result, three cleaned datasets were created:
+- [Reaction Types](https://github.com/DE-romane/Accenture-Internship-Data-Analytics-and-Visualization/blob/main/Cealned_data/ReactionTypes.xlsx)
+- [Reactions](https://github.com/DE-romane/Accenture-Internship-Data-Analytics-and-Visualization/blob/main/Cealned_data/Reactions.xlsx)
+- [Content](https://github.com/DE-romane/Accenture-Internship-Data-Analytics-and-Visualization/blob/main/Cealned_data/Content.xlsx)
+ 
+### Data Modeling and Analysis
 
-### Data Modelling:
+To move forward with the analysis, I merged the cleaned datasets, creating a final comprehensive dataset. From this, I analyzed the data to identify the top five content categories with the largest popularity.
 
-**Create a final data set by merging 3 tables**
+The cleaned and modeled dataset can be found here: [Cleaned Dataset](https://github.com/DE-romane/Accenture-Internship-Data-Analytics-and-Visualization/blob/main/Cealned_data/Cleaned%20Dataset.xlsx)
 
-**End result will be one spreadsheet**
- - A cleaned dataset
- - Top 5 categories
+
+
  
- ### Cleaned Data set:
- So, the cleaned data set after data modelling & data cleaning : [Cleaned Dataset](https://github.com/Sinhaaz/Accenture-Data-Analytics-and-Visualization-Virtual-Internship/blob/main/Cleaned%20Dataset.xlsx)
- 
- ## Task - 3
- ### Data Visualization and Storytelling:
- **Make the Powerpoint presentation as per the given template**
- 
- **Charts Involved :**
-  >- Pie Chart
-  >- Bar Chart
-  
- - Powerpoint Presentation : [PPT](https://github.com/Sinhaaz/Accenture-Data-Analytics-and-Visualization-Virtual-Internship/blob/main/PowerPoint%20presentation.pptx)
- 
- ## Task - 4
- ### Present to the Client:
- **Present your powerpoint presentation to the client and deliver the insights of your analysis** 
- 
+ ## Task 3: Data Visualization and Storytelling
+Next, I created visualizations to present the findings. Using tools like PowerPoint, I presented the data with pie charts and bar charts, ensuring the insights were easy to understand for stakeholders.
+
+Here is the presentation: [PPT](https://github.com/DE-romane/Accenture-Internship-Data-Analytics-and-Visualization/blob/main/Data%20Analysis%20Presentation.pptx)
+
+## Task 4: Client Presentation
+Finally, I presented the PowerPoint and delivered the insights to the client. This step was crucial in communicating how the analysis could guide future decisions and strategies for Social Buzz's content popularity and IPO readiness. 
